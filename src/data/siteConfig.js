@@ -2,16 +2,16 @@ export const founderConfig = {
   name: "Ns. Ni Nyoman Suhartini, S.Kep",
   role: "Pendiri & Kepala Perawat",
   title: "Sarjana Keperawatan & Profesi Ners",
-  qualification: "STR Tenaga Kesehatan Aktif Kemenkes RI",
-  registrationStatus: "STR Perawat Medis Aktif & Terdaftar",
+  qualification: "Praktisi Keperawatan Medis & Homecare",
+  registrationStatus: "Perawat Medis Berizin Resmi",
   photo: "/images/ns-suhartini.jpg",
   quote: "Bagi kami, merawat pasien bukan sekadar memberikan tindakan medis, tetapi menghadirkan ketenangan, rasa aman, dan kasih sayang layaknya merawat keluarga sendiri di rumah.",
   bio: "Tenaga medis profesional bergelar Sarjana Keperawatan dan Profesi Ners (Ns.) dengan kompetensi mendalam dalam manajemen perawatan luka modern (modern wound care), tindakan medis invasif steril, serta pendampingan komprehensif bagi pasien lansia (geriatri) dan pemulihan pasca rawat inap rumah sakit.",
   credentials: [
     { title: "Profesi Ners (Ns.) & S.Kep", issuer: "Pendidikan Profesi Keperawatan Resmi" },
-    { title: "Surat Tanda Registrasi (STR)", issuer: "Kementerian Kesehatan RI (Aktif)" },
-    { title: "Kompetensi Perawatan Luka", issuer: "Modern Wound Care Dressing" },
-    { title: "Penanganan Medis Steril", issuer: "Standar Prosedur Klinis RS" }
+    { title: "Kualifikasi Perawatan Luka", issuer: "Modern Wound Care Dressing" },
+    { title: "Tindakan Medis Steril", issuer: "Standar Prosedur Klinis RS" },
+    { title: "Pendampingan Pasien Geriatri", issuer: "Perawatan Lansia & Pasca Stroke" }
   ]
 };
 
@@ -95,14 +95,14 @@ export const pricingPackages = [
     badge: "Fleksibel",
     price: "Mulai Rp 150.000",
     period: "per visit / tindakan",
-    desc: "Pilihan tepat untuk pasien yang hanya memerlukan tindakan medis tertentu tanpa perlu perawat menginap atau menunggu seharian.",
+    desc: "Pilihan tepat untuk pasien yang hanya memerlukan tindakan medis tertentu tanpa perlu perawat menunggu seharian.",
     features: [
-      "1x Kunjungan perawat ber-STR ke rumah",
+      "1x Kunjungan perawat profesional ke rumah",
       "Pemeriksaan Tanda Vital lengkap (Tensi, Nadi, SpO2, Suhu)",
       "Tindakan medis terpilih (Luka / Kateter / NGT / Infus)",
       "Penggunaan APD & alat medis steril",
       "Lembar edukasi perawatan untuk keluarga",
-      "Konsultasi online pasca tindakan"
+      "Konsultasi pasca tindakan"
     ],
     ctaText: "Pesan Paket Kunjungan",
     popular: false
@@ -159,7 +159,7 @@ export const howItWorksSteps = [
   {
     number: "03",
     title: "Kunjungan & Tindakan di Rumah",
-    desc: "Perawat ber-STR tiba di rumah Anda tepat waktu dengan peralatan medis steril lengkap dan seragam rapi siap melayani dengan empati."
+    desc: "Perawat medis profesional tiba di rumah Anda tepat waktu dengan peralatan steril lengkap dan melayani dengan penuh empati."
   },
   {
     number: "04",
@@ -170,8 +170,8 @@ export const howItWorksSteps = [
 
 export const faqData = [
   {
-    q: "Apakah perawat Belayu Homecare memiliki izin resmi (STR)?",
-    a: "Ya, betul sekali. Seluruh pelayanan dipimpin dan dilakukan langsung oleh perawat berpendidikan Profesi Ners (Ns.) dan Sarjana Keperawatan (S.Kep) yang telah mengantongi Surat Tanda Registrasi (STR) aktif dari Kementerian Kesehatan Republik Indonesia."
+    q: "Apakah perawat Belayu Homecare memiliki kualifikasi resmi?",
+    a: "Ya, betul sekali. Seluruh pelayanan dipimpin langsung oleh Ns. Ni Nyoman Suhartini, S.Kep berpendidikan Sarjana Keperawatan & Profesi Ners yang telah mengantongi izin praktik dan Surat Tanda Registrasi (STR) aktif dari Kementerian Kesehatan Republik Indonesia."
   },
   {
     q: "Apakah peralatan medis dibawa sendiri oleh perawat?",

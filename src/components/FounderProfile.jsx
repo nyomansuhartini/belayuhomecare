@@ -37,7 +37,7 @@ export default function FounderProfile() {
                 <div className="mt-2.5 text-center">
                   <span className="inline-flex items-center gap-1.5 bg-teal-50 text-teal-800 border border-teal-200 text-xs font-bold px-3 py-1 rounded-full">
                     <ShieldCheck size={14} className="text-teal-700" />
-                    STR Kemenkes Terverifikasi
+                    Tenaga Medis Terverifikasi
                   </span>
                 </div>
               </div>

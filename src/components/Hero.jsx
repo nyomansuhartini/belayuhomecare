@@ -6,27 +6,27 @@ export default function Hero() {
     <header className="relative bg-gradient-to-b from-teal-50/40 via-white to-slate-50/50 py-8 sm:py-12 md:py-14 border-b border-slate-100">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        {/* CSS Grid 12 Kolom yang Stabil (Tanpa Transformasi Off-Screen) */}
+        {/* CSS Grid 12 Kolom */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
           
-          {/* Kolom Kiri: Copywriting & CTA (7 Kolom Desktop) */}
+          {/* Kolom Kiri: Copywriting & CTA */}
           <div className="lg:col-span-7 text-center lg:text-left space-y-5">
             
-            {/* Lokasi & Status Badge: Responsif, Tidak Menyebabkan Overflow di HP */}
-            <div className="inline-flex items-center gap-2 px-3 py-1 bg-teal-50 text-teal-800 border border-teal-200/80 rounded-full text-xs font-semibold max-w-full">
+            {/* Lokasi Badge */}
+            <div className="inline-flex items-center gap-2 px-3.5 py-1 bg-teal-50 text-teal-800 border border-teal-200/80 rounded-full text-xs font-semibold">
               <span className="w-2 h-2 rounded-full bg-teal-600 shrink-0"></span>
               <span className="hidden sm:inline">Layanan Medis Resmi Denpasar • Badung • Tabanan</span>
               <span className="sm:hidden">Layanan Medis Resmi • Bali</span>
             </div>
 
-            {/* Headline Utama: Proporsional, Elegan, Tidak Raksasa */}
+            {/* Headline Utama */}
             <h1 className="text-2xl sm:text-3xl lg:text-[2.2rem] font-bold text-slate-900 leading-tight tracking-tight">
               Layanan Medis Profesional di <span className="text-teal-700">Kenyamanan Rumah</span> Anda
             </h1>
 
-            {/* Sub-headline: Terbaca Jelas & Kontras Pas */}
+            {/* Sub-headline Alami Tanpa Pengulangan STR */}
             <p className="text-sm sm:text-base text-slate-700 leading-relaxed max-w-xl mx-auto lg:mx-0">
-              Ditangani langsung oleh <b>{founderConfig.name}</b> (Tenaga Medis Profesi Ners ber-STR Aktif). Layanan homecare berstandar medis untuk perawatan luka diabetes, pasang selang NGT/kateter, pasca operasi, dan pendampingan lansia di Bali.
+              Ditangani langsung oleh <b>{founderConfig.name}</b> ({founderConfig.title}). Layanan homecare berstandar medis untuk perawatan luka diabetes, pasang selang NGT/kateter, pasca operasi, dan pendampingan lansia di Bali.
             </p>
 
             {/* Tombol CTA */}
@@ -60,7 +60,7 @@ export default function Hero() {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5 pt-2 text-left">
               <div className="flex items-center gap-2.5 bg-white p-3 rounded-xl border border-slate-200/80 shadow-sm">
                 <ShieldCheck size={18} className="text-teal-700 shrink-0" />
-                <span className="text-xs font-semibold text-slate-800">STR Perawat Aktif Kemenkes</span>
+                <span className="text-xs font-semibold text-slate-800">Tenaga Medis Berpengalaman</span>
               </div>
               <div className="flex items-center gap-2.5 bg-white p-3 rounded-xl border border-slate-200/80 shadow-sm">
                 <Award size={18} className="text-teal-700 shrink-0" />
@@ -74,14 +74,13 @@ export default function Hero() {
 
           </div>
 
-          {/* Kolom Kanan: Foto Asli Ns. Ni Nyoman Suhartini, S.Kep (5 Kolom Desktop - Aman dari Terpotong) */}
+          {/* Kolom Kanan: Foto Asli Ns. Ni Nyoman Suhartini, S.Kep (Bersih Tanpa Badge Tempelan) */}
           <div className="lg:col-span-5 w-full flex justify-center lg:justify-end">
             <div className="w-full max-w-[340px] sm:max-w-[370px]">
               
-              {/* Photo Card Terbungkus Rapi */}
               <div className="bg-white p-2.5 rounded-3xl shadow-xl border border-slate-200/80 overflow-hidden">
                 
-                {/* Image Frame */}
+                {/* Image Frame Murni & Bersih */}
                 <div className="relative aspect-[4/4.3] overflow-hidden rounded-2xl bg-teal-50">
                   <img 
                     src={founderConfig.photo} 
@@ -89,15 +88,9 @@ export default function Hero() {
                     className="w-full h-full object-cover object-top"
                     loading="eager"
                   />
-
-                  {/* Top Badge: Bersih di dalam foto */}
-                  <div className="absolute top-3 left-3 bg-white/95 backdrop-blur-md px-3 py-1 rounded-full shadow-sm border border-slate-100 flex items-center gap-1.5">
-                    <ShieldCheck size={14} className="text-teal-700" />
-                    <span className="text-[11px] font-bold text-slate-800">STR Aktif Kemenkes RI</span>
-                  </div>
                 </div>
 
-                {/* Info Card di Bawah Foto (Tersendiri & Jelas, 100% di Dalam Box) */}
+                {/* Info Card di Bawah Foto (Natural & Elegan) */}
                 <div className="p-3 bg-slate-50/90 rounded-xl mt-2 border border-slate-100 flex items-center justify-between gap-2">
                   <div className="min-w-0 flex-1">
                     <p className="font-extrabold text-sm text-slate-900 leading-snug truncate">

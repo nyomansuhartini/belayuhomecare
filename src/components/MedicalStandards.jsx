@@ -4,8 +4,8 @@ export default function MedicalStandards() {
   const standards = [
     {
       icon: <ShieldCheck size={28} className="text-teal-700" />,
-      title: "Tenaga Medis Resmi & Ber-STR",
-      desc: "Bukan sekadar perawat biasa (caregiver informal), melainkan sarjana keperawatan dan profesi ners dengan izin praktik sah dari Kemenkes RI."
+      title: "Tenaga Medis Profesional Berizin",
+      desc: "Bukan sekadar perawat biasa (caregiver informal), melainkan perawat berpendidikan Sarjana Keperawatan dan Profesi Ners yang berdedikasi tinggi."
     },
     {
       icon: <Sparkles size={28} className="text-teal-700" />,
